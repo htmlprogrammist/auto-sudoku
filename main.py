@@ -1,19 +1,27 @@
-# Initialization
-a1 = list(map(int, input().split()))
-a2 = list(map(int, input().split()))
-a3 = list(map(int, input().split()))
-a4 = list(map(int, input().split()))
-a5 = list(map(int, input().split()))
-a6 = list(map(int, input().split()))
-a7 = list(map(int, input().split()))
-a8 = list(map(int, input().split()))
-a9 = list(map(int, input().split()))
-print(a1)
-print(a2)
-print(a3)
-print(a4)
-print(a5)
-print(a6)
-print(a7)
-print(a8)
-print(a9)
+import eel
+
+eel.init("")
+eel.start("index.html", size=(1020, 800))
+
+
+def check_horizontal():
+    # pass
+    return 1
+
+
+def check_vertical():
+    # pass
+    return 2
+
+
+def check_square():
+    # pass
+    return 3
+
+
+@eel.expose()
+def main():
+    # pass
+    check_horizontal()
+    check_vertical()
+    check_square()

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto-Sudoku</title>
+  <script src="eel.js"></script>
+</head>
+<body>
+  <h1>Auto-Sudoku</h1>
+  <main>
+  </main>
+  <script src="script.js"></script>
+  <script>
+    async function showResult() {
+      let values;  // = document.querySelectorAll('inputs')
+      let res = await eel.main(values)(); // Вызов функции из Python
+      let main = document.querySelector('main'); // Пока что main, а так надо вывести обратно в те инпуты или
+      // Заново нарисовать судоку с ответами
+      main.append(res)
+    }
+  </script>
+</body>
+</html>

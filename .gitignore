@@ -1,4 +1,6 @@
 # Directories
 /.idea/
+/spreadsheets/
 
 # Files
+.DS_Store

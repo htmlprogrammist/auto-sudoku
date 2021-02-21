@@ -1,5 +1,6 @@
 import spreadsheet
 
+
 def check_horizontal(index):
     global x, y
     return 1
@@ -15,15 +16,13 @@ def check_square():
     return 3
 
 
+# Нуждается в переработке, проверить ответы на stackoverflow.com
 def is_number_already_in(number, line):
     equality = False
     for i in line:
         if i == number:
             equality = True
-    if equality:
-        return True
-    else:
-        return False
+    return equality
 
 
 def main(a):

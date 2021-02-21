@@ -1,6 +1,7 @@
 # Directories
 /.idea/
 /spreadsheets/
+/__pycache__/
 
 # Files
 .DS_Store

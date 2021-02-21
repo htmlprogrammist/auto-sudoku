@@ -20,7 +20,7 @@
   <script>
     async function showResult() {
       let values;  // = document.querySelectorAll('inputs')
-      let res = await eel.main(values)(); // Вызов функции из Python
+      let res = await eel.call_main(values)(); // Вызов функции из Python
       let main = document.querySelector('main'); // Пока что main, а так надо вывести обратно в те инпуты или
       // Заново нарисовать судоку с ответами
       main.append(res)
